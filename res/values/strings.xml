@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hadees e Kisa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Custom strings -->
+    <!-- a_m_b == Activity Main Button -->
+	<string name="share_menu_title">Share</string>
+	<string name="a_m_bismillah_description">Bismillah</string>
+	<string name="a_m_b_hadees_e_kisa">Hadees-e-Kisa</string>
+	<string name="a_m_b_quotes">Ahl-e-Bait (AS) Quotes</string>
+	<string name="a_m_b_about_us">About</string>
+	<string name="a_m_b_exit">Exit</string>
+</resources>
