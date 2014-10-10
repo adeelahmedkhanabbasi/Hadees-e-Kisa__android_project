@@ -13,4 +13,15 @@
 	<string name="a_m_b_quotes">Ahl-e-Bait (AS) Quotes</string>
 	<string name="a_m_b_about_us">About</string>
 	<string name="a_m_b_exit">Exit</string>
+	<string name="show_kisa_images_description">Hadees-e-Kisa</string>
+	<string name="kisamenu_shareTitle">Share</string>
+	<string name="kisamenu_overflow"></string>
+	<string name="quotes_image_description">Islamic Quotes</string>
+	<string name="about_us_detail">
+	    Welcome to Hadees-e-Kisa app.
+	    This is totally free and without ads.
+	    You can download Quotes images in our next version. (Available Soon)
+	    
+	    kindly pray for me and for my family.
+	</string>
 </resources>

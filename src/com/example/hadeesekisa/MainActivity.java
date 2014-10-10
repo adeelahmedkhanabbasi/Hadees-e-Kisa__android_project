@@ -1,21 +1,22 @@
 package com.example.hadeesekisa;
 
-import android.support.v7.app.ActionBarActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+ 
 
-
-public class MainActivity extends ActionBarActivity {
-
+public class MainActivity extends ActionBarActivity { 
+	   
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+         
         
         /*
          * Displaying hadees e kisa, when click on Hadees e kisa button
@@ -29,6 +30,33 @@ public class MainActivity extends ActionBarActivity {
 				startActivity(new Intent(MainActivity.this, Show_Kisa.class));
 			}
 		});
+        
+        /*
+         * Displaying Islamic Quotes
+         */
+        Button quotes_b = (Button) findViewById(R.id.quotes);
+        quotes_b.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				startActivity(new Intent(MainActivity.this, Quotes.class));
+			}
+		});
+        
+        /*
+         * Displaying About Page
+         */
+        Button about_b = (Button) findViewById(R.id.activity_main_about_us);
+        about_b.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				startActivity(new Intent(MainActivity.this, About_Us.class));
+			}
+		});
+        
     }
     
     @Override
@@ -48,7 +76,5 @@ public class MainActivity extends ActionBarActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-    
-    
+    } 
 }

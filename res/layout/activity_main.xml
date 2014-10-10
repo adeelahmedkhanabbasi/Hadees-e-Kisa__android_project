@@ -12,54 +12,57 @@
     <ImageView
         android:id="@+id/activity_main_imageView1"
         android:layout_width="300dp"
-        android:layout_height="150dp"
+        android:layout_height="180dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
         android:contentDescription="@string/a_m_bismillah_description"
         android:src="@drawable/bismillah" />
 
-    <Button
-        android:id="@+id/activity_main_exit"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/activity_main_imageView1"
-        android:layout_below="@+id/activity_main_quotes"
-        android:layout_marginTop="34dp"
-        android:background="@drawable/ps__button_picasa"
-        android:text="@string/a_m_b_exit"
-        android:textColor="#FF0000" />
-
-    <Button
-        android:id="@+id/activity_main_about_us"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/activity_main_exit"
-        android:layout_alignBottom="@+id/activity_main_exit"
-        android:layout_alignLeft="@+id/activity_main_imageView1"
-        android:background="@drawable/ps__button_wordpress"
-        android:text="@string/a_m_b_about_us"
-        android:textColor="@android:color/white" />
-
-    <Button
-        android:id="@+id/activity_main_hadees_e_kisa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/activity_main_quotes"
-        android:layout_alignRight="@+id/activity_main_quotes"
-        android:layout_centerVertical="true"
-        android:background="@drawable/ps__button_wordpress"
-        android:text="@string/a_m_b_hadees_e_kisa"
-        android:textColor="@android:color/white" />
-
-    <Button
-        android:id="@+id/activity_main_quotes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/activity_main_hadees_e_kisa"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/ps__button_wordpress"
-        android:text="@string/a_m_b_quotes"
-        android:textColor="@android:color/white" />
+        android:layout_marginBottom="21dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/activity_main_hadees_e_kisa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ps__button_wordpress"
+            android:text="@string/a_m_b_hadees_e_kisa"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/quotes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ps__button_wordpress"
+            android:text="@string/a_m_b_quotes"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/activity_main_about_us"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ps__button_wordpress"
+            android:text="@string/a_m_b_about_us"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/activity_main_exit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ps__button_wordpress"
+            android:text="@string/a_m_b_exit"
+            android:textColor="#FF0000" />
+
+    </LinearLayout>
 
 </RelativeLayout>
